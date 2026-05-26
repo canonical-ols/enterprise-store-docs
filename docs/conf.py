@@ -300,5 +300,3 @@ rst_prolog = """
 # intersphinx_mapping = {
 #     "snap": ("https://snapcraft.io/docs/", None),
 # }
-
-llms_txt_enabled = True
