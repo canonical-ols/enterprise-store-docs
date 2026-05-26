@@ -66,7 +66,7 @@ sudo enterprise-store override core18 stable=1725
 core18 stable armhf 1725
 ```
 
-We can see that we've overriden the stable channel revisions for both
+We can see that we've overridden the stable channel revisions for both
 amd64 and armhf and that both upstream counterparts are at lower revisions:
 
 ```{terminal}

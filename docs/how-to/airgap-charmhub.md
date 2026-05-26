@@ -147,7 +147,7 @@ charmed-mysql: /home/ubuntu/snap/store-admin/common/export/charmed-mysql-2024042
 
 ### Export OCI images
 
-A local OCI registry needs to be set up to enable charms with OCI image resources. On charm export, the OCI image metadata blob is written to the `resources` directory, using `postgresql-k8s` as an exmaple:
+A local OCI registry needs to be set up to enable charms with OCI image resources. On charm export, the OCI image metadata blob is written to the `resources` directory, using `postgresql-k8s` as an example:
 
 ```json
 {
