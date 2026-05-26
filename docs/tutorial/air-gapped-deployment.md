@@ -20,8 +20,8 @@ able to use it to control snap revisions on any connected devices.
 This tutorial will run through processes to set up and utilise an air-gapped
 Enterprise Store. We will show you how to:
 
-* Install the Enterprise Store in an offline environment  
-* Sideload a snap in an offline environment  
+* Install the Enterprise Store in an offline environment
+* Sideload a snap in an offline environment
 * Obtain a snap from the store in an offline mode
 
 We will also cover how to mimic and air-gapped environment for the containers,
@@ -31,10 +31,10 @@ so there's no need to take your host machine offline.
 
 For this tutorial, you will need:
 
-* An x64 system running Ubuntu 22.04 or Ubuntu 24.04  
-* A local user with super user privileges  
-* 30GB of free storage  
-* A stable internet connection  
+* An x64 system running Ubuntu 22.04 LTS or Ubuntu 24.04 LTS
+* A local user with super user privileges
+* 30GB of free storage
+* A stable internet connection
 * An [Ubuntu One account](https://login.ubuntu.com/)
 
 ## Before you begin
@@ -132,7 +132,7 @@ Install the snap with:
 
 To obtain a functional Enterprise Store for installation offline, you need to register it while online. This is something done by using the `store-admin` snap and specifically registering an offline store with your Ubuntu One credentials.
 
-On the **test-offline-store**, install the `store-admin` snap: 
+On the **test-offline-store**, install the `store-admin` snap:
 
 ```{terminal}
 :user: root
@@ -277,7 +277,7 @@ curl: (7) Failed to connect to api.snapcraft.io port 80 after 4103 ms: Network i
 
 ## Install your offline store
 
-In **test-offine-store**, install PostgreSQL and its dependency `core24`: 
+In **test-offine-store**, install PostgreSQL and its dependency `core24`:
 
 ```{terminal}
 :user: root
@@ -472,13 +472,13 @@ publisher: Lauren Brock
 store-url: https://snapcraft.io/helix
 license:   MPL-2.0
 description: |
-  
+
 snap-id: JbSwFezsVhBG8EpYeNqD4HX31U5WIzdY
 channels:
   latest/stable:    25.07.1 2025-09-05 (120) 21MB classic
-  latest/candidate: ↑                             
-  latest/beta:      ↑                             
-  latest/edge:      ↑ 
+  latest/candidate: ↑
+  latest/beta:      ↑
+  latest/edge:      ↑
 ```
 
 Check if `htop` is available:
