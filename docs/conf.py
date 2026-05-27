@@ -201,7 +201,8 @@ linkcheck_ignore = [
     "https://example.com",
     # SourceForge domains often block linkcheck
     r"https://.*\.sourceforge\.(net|io)/.*",
-    'https://ubuntu.com/core/docs/gadget-snaps#heading--example-prepare',
+    'https://ubuntu.com/*',
+    'https://snapcraft.io/*',
     'https://github.com/canonical/*',
 ]
 
