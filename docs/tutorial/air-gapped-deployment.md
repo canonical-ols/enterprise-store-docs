@@ -277,7 +277,7 @@ curl: (7) Failed to connect to api.snapcraft.io port 80 after 4103 ms: Network i
 
 ## Install your offline store
 
-In **test-offine-store**, install PostgreSQL and its dependency `core24`:
+In **test-offline-store**, install PostgreSQL and its dependency `core24`:
 
 ```{terminal}
 :user: root
