@@ -226,7 +226,8 @@ linkcheck_retries = 3
 #   - substitution
 #   - deflist
 #   - linkify
-# myst_enable_extensions = set()
+
+myst_enable_extensions = set(["substitution", "deflist", "linkify", "colon_fence"])
 
 myst_heading_anchors = 3
 
