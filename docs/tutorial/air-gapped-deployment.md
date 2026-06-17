@@ -153,7 +153,8 @@ store-admin register --offline http://test-offline-store
 ```
 
 ```{note}
-You may be prompted to open a browser and verify your Ubuntu One account.
+You may be prompted to open a browser and verify your Ubuntu One account. See {doc}`how to
+register </how-to/register>` for more information.
 ```
 
 To sideload a snap into an air-gapped Enterprise Store, you need to use an online device with the store-admin snap installed to export the snap, move it to your air-gapped device, then import it into the store.

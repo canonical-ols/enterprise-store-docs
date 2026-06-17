@@ -6,16 +6,16 @@ Enterprise Store documentation
 
 .. attention::
 
-  The Enterprise Store requires a license for deployments of more than 25 devices. Please
+  The Enterprise Store requires a license for deployments of more than 25 clients. Please
   `contact us <https://ubuntu.com/enterprise-store#get-in-touch>`_ for information on pricing.
 
 The **Enterprise Store** (formerly Snap Store Proxy) provides an on-premise edge proxy to the general
-`Snap Store <https://snapcraft.io/store>`_ for your devices.
+`Snap Store <https://snapcraft.io/store>`_ for your clients.
 
-Devices are registered with the Proxy, and all communication with the Snap Store will
-**flow through the Proxy**, thereby enabling network-restricted devices to access snaps.
+Clients are registered with the Proxy, and all communication with the Snap Store will
+**flow through the Proxy**, thereby enabling network-restricted clients to access snaps.
 Upstream snap **revisions can be overridden** on the Proxy, allowing fine-grained revision
-control for your devices. The Proxy furthermore supports air-gapped deployments when
+control for your clients. The Proxy furthermore supports air-gapped deployments when
 configured in **offline mode**.
 
 The Proxy is an excellent fit for organisations looking for **more control

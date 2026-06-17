@@ -6,6 +6,9 @@ description: Register your Enterprise Store with Ubuntu SSO and configure it for
 
 # Registration
 
+For registration, you will need a Snapcraft.io account, and you will need to sign
+the [Developer Programme Agreement](https://snapcraft.io/account/agreement).
+
 ## Initial registration
 
 To register the proxy, you will need to provide Ubuntu SSO credentials

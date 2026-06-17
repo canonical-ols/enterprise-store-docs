@@ -74,6 +74,10 @@ sudo lxc launch ubuntu:22.04 test-device
 For this tutorial, it is recommended to open each container in a separate terminal tab or window for convenience.
 ```
 
+```{warning}
+``sudo`` is needed for most commands on your host machine, but isn't needed within each container as you will the `root` user.
+```
+
 ````{dropdown} How-to open a container's shell
 
 We can open a container by running bash. For example, to open the CLI of the **test-store**:
@@ -246,7 +250,8 @@ sudo enterprise-store register
 ```
 
 ```{note}
-Registering your store will require you to provide some information when prompted. After all information is provided, an ID will be provided for your store.
+Registering your store will require you to provide some information when prompted. See {doc}`how to
+register </how-to/register>` for more information.
 ```
 
 Use the `status` command to retrieve the ID of your store:
