@@ -4,11 +4,6 @@
 Enterprise Store documentation
 ==============================
 
-.. attention::
-
-  The Enterprise Store requires a license for deployments of more than 25 clients. Please
-  `contact us <https://ubuntu.com/enterprise-store#get-in-touch>`_ for information on pricing.
-
 The **Enterprise Store** (formerly Snap Store Proxy) provides an on-premise edge proxy to the general
 `Snap Store <https://snapcraft.io/store>`_ for your clients.
 
