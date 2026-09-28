@@ -374,7 +374,7 @@ On the **test-offline-store**, push the helix snap and its dependency `core24` t
 
 ```{terminal}
 :user: root
-:host: test-offline-device
+:host: test-offline-store
 :copy:
 
 enterprise-store push-snap /root/core24-*.tar.gz
@@ -385,7 +385,7 @@ enterprise-store push-snap /root/core24-*.tar.gz
 
 ```{terminal}
 :user: root
-:host: test-offline-device
+:host: test-offline-store
 :copy:
 
 enterprise-store push-snap /root/helix-*.tar.gz
@@ -398,7 +398,7 @@ Check that the snaps have been successfully pushed to the store:
 
 ```{terminal}
 :user: root
-:host: test-offline-device
+:host: test-offline-store
 :copy:
 
 enterprise-store list-pushed-snaps
